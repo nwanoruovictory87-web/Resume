@@ -7,7 +7,7 @@ body {
 }
 .content-body {
   min-width: 300;
-  max-width: 1100px;
+  max-width: 1300px;
   display: flex;
   justify-content: center;
 }
@@ -15,7 +15,7 @@ body {
   display: flex;
 }
 .about-user-box {
-  max-width: 330px;
+  max-width: 350px;
   min-width: 300px;
   min-height: 100vh;
   background-color: rgb(2, 2, 92);
@@ -308,8 +308,6 @@ body {
 /***/
 .about-content-box {
   min-width: 300px;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-right: auto;
 }
 .content-head-box {
@@ -419,6 +417,7 @@ body {
     min-width: 300px;
     min-height: 100vh;
     background-color: rgb(2, 2, 92);
+    padding-bottom: 30px;
   }
 }
 .focus-span {
@@ -438,4 +437,48 @@ body {
 }
 .first-content-about {
   padding-top: 7px;
+}
+.focus-user-div {
+  display: none;
+}
+.focus-content-div {
+  display: block;
+}
+.education-user-div {
+  display: none;
+}
+.education-span {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+.education-span h5 {
+  font-size: 17px;
+  color: white;
+  font-weight: 500;
+}
+
+@media (min-width: 601px) {
+  .focus-content-div {
+    display: none;
+  }
+  .focus-user-div {
+    display: block;
+  }
+  @media (min-width: 900px) {
+    .focus-user-div {
+      display: none;
+    }
+    .focus-content-div {
+      display: block;
+      margin-bottom: 25px;
+    }
+    .education-content-div {
+      display: none;
+    }
+    .education-user-div {
+      display: block;
+    }
+  }
 }

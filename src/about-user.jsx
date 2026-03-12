@@ -1,8 +1,10 @@
+import Image from "./assets/profil-pic/img0.png";
+
 function User() {
   return (
     <div className="about-user-box">
       <span className="head-user-img-box">
-        <img src="./src/assets/profil-pic/profil-pic.jpg"></img>
+        <img src={Image}></img>
       </span>
       <span className="skills-head-text-box">
         <span className="skills-head-content-box">
@@ -150,23 +152,44 @@ function User() {
             Build and deployed a chart app
           </h5>
         </span>
+        <div className="focus-user-div">
+          <span className="interest-head-text-box">
+            <span className="interest-head-content-box">
+              <i className="fas fa-location"></i>
+              <h5>FOCUS</h5>
+            </span>
+            <span className="interest-head-end-line"></span>
+          </span>
+          <span className="focus-span">
+            <ul className="focus-ul">
+              <li>Frontend development</li>
+              <li>Backend development</li>
+              <li>Real-time communication systems</li>
+              <li>Web application deployment</li>
+              <li>Full-stack development</li>
+            </ul>
+          </span>
+        </div>
+        <div className="education-user-div">
+          <span className="interest-head-text-box">
+            <span className="interest-head-content-box">
+              <i className="fas fa-graduation-cap"></i>
+              <h5>EDUCATION</h5>
+            </span>
+            <span className="interest-head-end-line"></span>
+          </span>
+          <span className="education-span">
+            <h5>
+              2020 Junior High School Graduate (JUNIOR SECONDARY SCHOOL -
+              JIKWOYI-II)
+            </h5>
+            <h5>
+              2023 High School Graduate (GOVERNMENT SECONDARY
+              SCHOOL,KARSHI-ABUJA)
+            </h5>
+          </span>
+        </div>
       </div>
-      <span className="interest-head-text-box">
-        <span className="interest-head-content-box">
-          <i className="fas fa-location"></i>
-          <h5>FOCUS</h5>
-        </span>
-        <span className="interest-head-end-line"></span>
-      </span>
-      <span className="focus-span">
-        <ul className="focus-ul">
-          <li>Frontend development</li>
-          <li>Backend development</li>
-          <li>Real-time communication systems</li>
-          <li>Web application deployment</li>
-          <li>Full-stack development</li>
-        </ul>
-      </span>
     </div>
   );
 }

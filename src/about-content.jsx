@@ -54,13 +54,6 @@ function Content() {
           software development.
         </p>
         <p className="content-head-topic-sub-text">
-          I enjoy building applications that connect people and solve real
-          problems. One of my projects is Echo, a web-based chat application
-          that allows users to communicate in real time. Building Echo helped me
-          strengthen my skills in front-end development, application structure,
-          and user interaction design.
-        </p>
-        <p className="content-head-topic-sub-text">
           I am passionate about learning, experimenting, and continuously
           improving my skills. I believe technology is one of the most powerful
           tools for creating opportunities and solving problems, and I am
@@ -150,20 +143,56 @@ function Content() {
       <p className="content-head-topic-sub-text">
         Tested and debugged application for stable user experience.
       </p>
-
-      <span className="content-head-topic-box">
-        <span className="content-head-topic-text-box">
-          <i className="fa fa-graduation-cap"></i>
-          <h5 className="content-head-topic-text">EDUCATION</h5>
+      <div className="focus-content-div">
+        <span className="content-head-topic-box">
+          <span className="content-head-topic-text-box">
+            <i className="fa fa-location"></i>
+            <h5 className="content-head-topic-text">FOCUS</h5>
+          </span>
+          <span className="content-head-topic-text-end-line"></span>
         </span>
-        <span className="content-head-topic-text-end-line"></span>
-      </span>
-      <p className="content-head-topic-sub-text">
-        2020 Junior High School Graduate (JUNIOR SECONDARY SCHOOL - JIKWOYI-II)
-      </p>
-      <p className="content-head-topic-sub-text end-par">
-        2023 High School Graduate (GOVERNMENT SECONDARY SCHOOL,KARSHI-ABUJA)
-      </p>
+        <span className="skill-goal">
+          <p>
+            My goal is to grow into a full-stack web developer by building
+            scalable and interactive web applications. I am particularly
+            interested in real-time applications, frontend systems, and backend
+            architecture.
+          </p>
+          <p>Areas I am actively improving in include:</p>
+        </span>
+        <p className="content-head-topic-sub-text">Frontend development</p>
+        <p className="content-head-topic-sub-text">Backend development</p>
+        <p className="content-head-topic-sub-text">
+          Real-time communication systems
+        </p>
+        <p className="content-head-topic-sub-text">
+          Web application deployment
+        </p>
+        <p className="content-head-topic-sub-text">Full-stack development</p>
+        <span className="skill-goal-end">
+          <p>
+            I am continuously building projects, improving my programming
+            skills, and looking for opportunities to collaborate and grow as a
+            software developer.
+          </p>
+        </span>
+      </div>
+      <div className="education-content-div">
+        <span className="content-head-topic-box">
+          <span className="content-head-topic-text-box">
+            <i className="fa fa-graduation-cap"></i>
+            <h5 className="content-head-topic-text">EDUCATION</h5>
+          </span>
+          <span className="content-head-topic-text-end-line"></span>
+        </span>
+        <p className="content-head-topic-sub-text">
+          2020 Junior High School Graduate (JUNIOR SECONDARY SCHOOL -
+          JIKWOYI-II)
+        </p>
+        <p className="content-head-topic-sub-text end-par">
+          2023 High School Graduate (GOVERNMENT SECONDARY SCHOOL,KARSHI-ABUJA)
+        </p>
+      </div>
     </div>
   );
 }
